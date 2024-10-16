@@ -1,2 +1,2 @@
 # alz-dev
-alz-dev
+This is a sample project of ALZ Accelerator - alz-dev
