@@ -14,3 +14,9 @@ jobs:
       id-token: write
       contents: read
       pull-requests: write
+  deployment:
+    runs-on: ubuntu-latest
+    environment: dev
+    steps:
+      - name: deploy
+      # ...deployment-specific steps
