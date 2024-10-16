@@ -24,9 +24,3 @@ jobs:
       contents: read
     with:
       terraform_action: ${{ inputs.terraform_action }}
-  deployment:
-    runs-on: ubuntu-latest
-    environment: production
-    steps:
-      - name: deploy
-        # ...deployment-specific steps
